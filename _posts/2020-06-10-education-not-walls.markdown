@@ -5,5 +5,7 @@ Images:
 - "/uploads/Bosnia_STC-7.jpg"
 - "/uploads/Bosnia_STC-9.jpg"
 - "/uploads/Bosnia_STC-8.jpg"
+Location: Bosnia
+Client: Bihac
 ---
 
