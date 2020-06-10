@@ -7,5 +7,6 @@ Images:
 - "/uploads/Bosnia_STC-8.jpg"
 Location: Bosnia
 Client: Bihac
+layout: post
 ---
 
