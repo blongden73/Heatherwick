@@ -66,6 +66,19 @@ header {
     height: auto;
   }
 
+  .eh-image_wrapper {
+  }
+
+  .eh-image_cover {
+    transition: all ease-in-out 0.75s;
+    filter: blur(2px);
+
+    &.inview {
+      opacity: 1;
+      filter: blur(0px);
+    }
+  }
+
   .eh-image-num {
     font-size: 14px;
     font-family: monospace;

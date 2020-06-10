@@ -5,7 +5,9 @@ layout: default
 <div class="eh-posts eh-wrapper">
   {% for post in site.posts %}
       <div class="eh-post_base">
-        <img src="{{post.Images[0]}}">
+        <div class="eh-image_wrapper">
+          <img class="eh-image_cover" src="{{post.Images[0]}}">
+        </div>
         <div class="eh-image-num">
           {% assign image = post.Images %}
           {% for image in image %}
