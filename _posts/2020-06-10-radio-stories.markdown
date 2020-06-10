@@ -7,5 +7,6 @@ Images:
 - "/uploads/Radio-Ishingiro_ElenaHeatherwick-2.jpg"
 Location: Rwanda
 Client: 
+layout: post
 ---
 
