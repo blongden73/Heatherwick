@@ -1,0 +1,19 @@
+.eh-wrapper {
+  background-color: yellow;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eh-posts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.eh-post_base {
+  flex-basis: 40%;
+  min-height: 300px;
+  background-color: pink;
+}
