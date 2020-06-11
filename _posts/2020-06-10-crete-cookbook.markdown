@@ -5,5 +5,6 @@ Images:
 - Image: "/uploads/Crete_CookBook-20%201.png"
   Quote: 
 - 
+layout: post
 ---
 
