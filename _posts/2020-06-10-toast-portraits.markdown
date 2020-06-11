@@ -6,7 +6,9 @@ Images:
   Quote: 
 - Image: "/uploads/TOAST%20Portraits_RachelRoddy-14%201.png"
   Quote: 
-- Quote: This is the quote for a large display on one of the slides
+- Quote: "“With a large bucket tucked under her arm, she burrows deep into a thicket
+    and we hear a robin call out his warning that we are on his land now.”\n- Lindsay
+    Sekulowicz "
 - Image: "/uploads/Ukraine-5%201.png"
   Quote: 
 - Image: "/uploads/TOAST%20Portraits_WillowWalker-9%202.png"
