@@ -2,3 +2,40 @@
 layout: default
 ---
 
+<div class="eh-post__wrapper">
+  <div class="eh-name">
+    <h1><a href="/">Elena Heatherwick</a></h1>
+  </div>
+  <ul>
+    <li class="eh-cover eh-carousel">
+      <div class="eh-intro">
+        <p>{{content}}</p>
+      </div>
+      <div class="eh-intro_image">
+        <img class="intro_image" src="{{page.Images[0].Image}}">
+      </div>
+    </li>
+  {% assign image = page.Images %}
+  {% for image in image %}
+    <li class="eh-images eh-carousel {% if image.Quote %}eh-quote{% endif %}">
+      {% if image.Image %}
+        <img src="{{image.Image}}">
+      {% endif %}
+      {% if image.Quote %}
+        <h2>{{image.Quote}}</h2>
+      {% endif %}
+    </li>
+  {% endfor %}
+  <div class="eh-image-num">
+    <span class="eh-image_number">
+      Project
+    </span>
+    {% assign image = page.Images %}
+    {% for image in image %}
+      <span class="eh-image_number">
+        {{ forloop.index }}
+      </span>
+    {% endfor %}
+  </div>
+  </ul>
+</div>

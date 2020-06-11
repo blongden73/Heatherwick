@@ -6,7 +6,8 @@ layout: default
   {% for post in site.posts %}
       <div class="eh-post_base">
         <div class="eh-image_wrapper">
-          <img class="eh-image_cover" src="{{post.Images[0]}}">
+          <a href="{{post.url}}"></a>
+          <img class="eh-image_cover" src="{{post.Images[0].Image}}">
         </div>
         <div class="eh-image-num">
           {% assign image = post.Images %}
@@ -14,6 +15,7 @@ layout: default
             {{ forloop.index }}
           {% endfor %}
         </div>
+        <h1>{{post.title}}</h1>
       </div>
   {% endfor %}
 </div>

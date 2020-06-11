@@ -14,19 +14,31 @@
     font-style: normal;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   width: 100%;
   height: 80vh;
 
+  &.post {
+    h1 {
+      display: none;
+    }
+  }
+
   h1 {
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
     font-family: 'victor_serif_trialthin';
     letter-spacing: 0.5px;
     color: #e6e6e6;
-    font-size: 42px;
+    font-size: 52px;
+    z-index: -10;
   }
 }
 
@@ -66,16 +78,33 @@ header {
     height: auto;
   }
 
+  h1 {
+    font-family: 'victor_serif_trialthin';
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
   .eh-image_wrapper {
+    position: relative;
+    background-color: #E5C0A3;
+
+    a {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      cursor:url('/uploads/crosshair.png'), auto;
+    }
   }
 
   .eh-image_cover {
     transition: all ease-in-out 0.75s;
-    filter: blur(2px);
+    opacity: 0;
 
     &.inview {
       opacity: 1;
-      filter: blur(0px);
     }
   }
 
@@ -84,5 +113,124 @@ header {
     font-family: monospace;
     margin-top: 10px;
     letter-spacing: -3px;
+  }
+}
+
+.eh-post__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor:pointer;
+
+  .eh-image-num {
+    font-size: 14px;
+    font-family: monospace;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 40px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .eh-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e6e6e6;
+    padding: 20px;
+    display: flex;
+    transition: all ease-in 0.5;
+    transition-delay: 1s !important;
+
+    &.darkColour {
+      p {
+        color: #fff;
+      }
+    }
+
+    p {
+      font-family: 'victor_serif_trialthin';
+      font-size: 30px;
+      line-height: 1.2;
+      max-width: 600px;
+    }
+
+    > div {
+      flex-basis: 50%;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 90vh;
+      position: relative;
+
+      img {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+  .eh-carousel {
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
+    transition-delay: 0.1s;
+    pointer-events: none;
+
+    &.display {
+      pointer-events: all;
+      opacity: 1;
+    }
+  }
+
+  .eh-images {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 90vh;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  .eh-quote {
+    h2 {
+      font-family: 'victor_serif_trialthin';
+      font-size: 70px;
+      line-height: 1.2;
+      text-align: center;
+    }
+  }
+
+  .eh-name {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    transform: rotate(90deg) translate(50%, -50%);
+    transform-origin: center;
+    z-index: 100;
+
+    h1 {
+      font-size: 14px;
+      font-family: monospace;
+      font-weight: 100;
+    }
+  }
+
+  .eh-image_number {
+    border-bottom: none;
+
+    &.current {
+      border-bottom: 1px solid #121212;
+    }
   }
 }
