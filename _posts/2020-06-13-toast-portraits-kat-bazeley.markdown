@@ -10,7 +10,7 @@ Images:
   Quote: 
 - Image: "/uploads/Kat-Bazeley-2.jpg"
   Quote: 
-- Image: 
+- Image: "/uploads/Kat-Bazeley-4.jpg"
   Quote: 
 ---
 
