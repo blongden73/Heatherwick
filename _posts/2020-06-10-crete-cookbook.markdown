@@ -4,7 +4,7 @@ date: 2020-06-10 12:01:00 Z
 Images:
 - Image: "/uploads/Crete_CookBook-21-0310b8.jpg"
   Quote: 
-- Image: "/uploads/Crete_CookBook-20%201.png"
+- Image: "/uploads/Crete_CookBook-20.jpg"
   Quote: 
 - Image: "/uploads/Crete_CookBook-36-5b3869.jpg"
   Quote: 
