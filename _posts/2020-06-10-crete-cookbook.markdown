@@ -8,3 +8,6 @@ Images:
 layout: post
 ---
 
+4_ AEGEAN, ‘Recipes from the Mountains to the Sea’ Crete
+‘When the sun was hot and the tomatoes tasted like honey, we would make the best tomato fritters. I still remember the first time I tasted them. The tomatoes, which you could smell before you even saw them, the fresh mint, the wild oregano... the whole kitchen seemed to burst with the sweetness and aromas of summer.’
+Marianna Leivaditaki
