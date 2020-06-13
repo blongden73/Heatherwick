@@ -2,6 +2,8 @@
 title: Radio Stories
 date: 2020-06-10 11:12:00 Z
 Images:
+- Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-1-b0d922.jpg"
+  Quote: 
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-3-14fdf5.jpg"
   Quote: 
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-4-13f14f.jpg"
@@ -17,6 +19,8 @@ Images:
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-9.jpg"
   Quote: 
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-14.jpg"
+  Quote: 
+- Image: 
   Quote: 
 Location: Rwanda
 Client: 
