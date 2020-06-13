@@ -2,20 +2,19 @@
 title: Toast Portraits - Rachel Rody
 date: 2020-06-10 12:02:00 Z
 Images:
-- Image: "/uploads/TOAST%20Portraits_RachelRoddy-6%201.png"
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-14.jpg"
   Quote: 
-- Image: "/uploads/TOAST%20Portraits_RachelRoddy-14%201.png"
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-7.jpg"
   Quote: 
-- Quote: "“With a large bucket tucked under her arm, she burrows deep into a thicket
-    and we hear a robin call out his warning that we are on his land now.”\n- Lindsay
-    Sekulowicz "
-- Image: "/uploads/Ukraine-5%201.png"
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-17.jpg"
   Quote: 
-- Image: "/uploads/TOAST%20Portraits_WillowWalker-9%202.png"
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-10.jpg"
   Quote: 
-- Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-1.jpg"
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-1.jpg"
   Quote: 
-- Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-2.jpg"
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-4.jpg"
+  Quote: 
+- Image: "/uploads/TOAST-Portraits_RachelRoddy-6.jpg"
   Quote: 
 layout: post
 ---
