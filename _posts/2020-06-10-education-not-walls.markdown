@@ -1,6 +1,6 @@
 ---
 title: Education not walls
-date: 2020-06-10 11:01:00 Z
+date: 2020-06-10 11:12:00 Z
 Images:
 - Image: "/uploads/Bosnia_STC-8-c0a618.jpg"
   Quote: 
