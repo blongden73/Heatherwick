@@ -3,7 +3,7 @@ title: Elena Heatherwick
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: Projects
     output: true
   uploads:
     title: Uploads
