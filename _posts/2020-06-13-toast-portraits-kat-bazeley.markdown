@@ -18,4 +18,5 @@ Images:
 House Farm in Dorset – there’s always someone who needs feeding, grooming,
 letting out. Having animals is like a metronome: the four-legged give life 
 its rhythm.”
-Mina Holland
+
+- Mina Holland
