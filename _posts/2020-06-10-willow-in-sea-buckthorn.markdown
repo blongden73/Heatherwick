@@ -12,7 +12,9 @@ Images:
   Quote: 
 - Image: "/uploads/TOAST-Portraits_WillowWalker-5.jpg"
   Quote: 
-- Image: "/uploads/TOAST-Portraits_WillowWalker-3.jpg"
+- Image: "/uploads/TOAST-Portraits_WillowWalker-7.jpg"
+  Quote: 
+- Image: "/uploads/TOAST-Portraits_WillowWalker-3-944e6b.jpg"
   Quote: |-
     “With a large bucket tucked under her arm, she burrows deep into a thicket and
     we hear a robin call out his warning that we are on his land now.”
