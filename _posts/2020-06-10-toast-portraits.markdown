@@ -20,13 +20,8 @@ Images:
 layout: post
 ---
 
-“Stewardship is the belief that humans are 
-responsible for taking care of the world around 
-them, and this is an ethic that Willow evokes 
-at the heart of her work. Like many other 
-foragers, it is vital that exact source of her 
-sea buckthorn is not revealed, but this is less 
-to do with keeping the treasure for herself but 
-in protecting the plant and understanding that 
-other coastal inhabitants need to share it too. 
-Earlier today as we climbed down to the dunes we disturbed a flock of field fares that flew out across the dunes from their shrubby winter nesting grounds. This is an essential feeding station for migratory birds as the landscape combines mudflats, salt and freshwater marshes, dunes and woodland as well as this extensive network of sea buckthorn.”
+“Rome is a city of pilgrims, inclusive as well as excluding. Living in
+Testaccio, you’re physically in a big city, but it has the soul and the head of
+a provincial town, and the heart of a gossipy little village. Anyone can join in
+with the joys and frustrations of it, from politics to rubbish collection.”
+Rachel Roddy
