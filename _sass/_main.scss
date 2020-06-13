@@ -69,6 +69,16 @@ header {
   min-height: 300px;
   margin-bottom: 200px;
 
+  &:nth-child(1) {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  &:nth-child(6n+6) {
+    flex-basis: 50%;
+    width: 50%;
+  }
+
   &:nth-child(2n+2) {
     margin-top: 200px;
   }
