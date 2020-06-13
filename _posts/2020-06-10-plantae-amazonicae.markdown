@@ -2,7 +2,7 @@
 title: Plantae Amazonicae
 date: 2020-06-10 12:00:00 Z
 Images:
-- Image: "/uploads/image%2014.png"
+- Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-8.jpg"
   Quote: 
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-2.jpg"
   Quote: 
@@ -28,4 +28,4 @@ rules of handling the pressed specimens. But most
 of all, I loved working somewhere knowledge
 seemed to be a shared and growing entity.”
 
-Lindsay Sekulowicz
+- Lindsay Sekulowicz
