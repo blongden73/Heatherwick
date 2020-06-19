@@ -81,6 +81,15 @@ function color(selector, parent){
     }
 }
 
+function menu(){
+  var menuButton = document.querySelector('.js-nav-open');
+  var navOptions = document.querySelector('.eh-nav');
+  menuButton.addEventListener('click', function(){
+    this.classList.toggle('open');
+    navOptions.classList.toggle('open');
+  });
+}
+
 function carousel(){
   var wrapper = document.querySelector('.eh-post__wrapper');
   var carousel = document.querySelectorAll('.eh-carousel');
@@ -116,6 +125,7 @@ function init(){
     setTimeout(function(){
       color('.eh-image_cover');
     },1000)
+    menu();
   }
   if(post) {
     setTimeout(function(){

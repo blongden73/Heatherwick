@@ -1,10 +1,16 @@
 {% include head.html %}
-{% include header.html %}
+{% if page.layout != 'about' %}
+  {% include header.html %}
+{% endif %}
 
 <main>
   <div class="eh-wrapper">
     {{content}}
   </div>
 </main>
+
+{% if page.layout == 'about' %}
+  {% include header.html %}
+{% endif %}
 
 {% include footer.html %}

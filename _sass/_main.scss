@@ -14,6 +14,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Golden Plains';
+    src: url('GoldenPlains.woff2') format('woff2'),
+        url('GoldenPlains.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -38,7 +47,16 @@ header {
     letter-spacing: 0.5px;
     color: #e6e6e6;
     font-size: 52px;
-    z-index: -10;
+    z-index: 10;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+
+    span {
+      transition: all ease-in-out 0.5s;
+      &.open {
+        color: #121212;
+      }
+    }
   }
 }
 
@@ -47,13 +65,38 @@ header {
   margin: 0;
   padding: 0;
   text-align: center;
-  display: none;
+  overflow: hidden;
+  height: 0;
+  transition: all ease-in-out 0.5s;
+  margin-top: 15px;
+
+  &.open {
+    transition-delay: 0.5s;
+    display: block;
+    height: 173px;
+  }
+
+  li {
+    margin-top: 6px;
+  }
 }
 
 .eh-wrapper {
-  width: 1300px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+
+  @include mq($from: desktop) {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include mq($from: wide) {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .eh-posts {
@@ -64,23 +107,67 @@ header {
 }
 
 .eh-post_base {
-  flex-basis: 32%;
-  width: 32%;
+  flex-basis: 100%;
+  width: 100%;
   min-height: 300px;
-  margin-bottom: 200px;
+  position: relative;
+  margin-bottom: 50px;
+
+  @include mq($from: desktop) {
+    flex-basis: 32%;
+    width: 32%;
+    margin-bottom: 200px;
+  }
+
+  h2 {
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+  }
 
   &:nth-child(1) {
-    flex-basis: 50%;
-    width: 50%;
+    flex-basis: 100%;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      flex-basis: 50%;
+      width: 50%;
+    }
+
+    h2 {
+      position: absolute;
+      right: -40px;
+      top: 0px;
+      transform: rotate(90deg);
+    }
   }
 
   &:nth-child(6n+6) {
-    flex-basis: 50%;
-    width: 50%;
+    flex-basis: 100%;
+    width: 100%;
+
+    @include mq($from: desktop) {
+      flex-basis: 50%;
+      width: 50%;
+    }
+
+    h2 {
+      position: absolute;
+      right: -40px;
+      top: 0px;
+      transform: rotate(90deg);
+    }
   }
 
   &:nth-child(2n+2) {
-    margin-top: 200px;
+    margin-top: 50px;
+
+    @include mq($from: desktop) {
+      margin-top: 200px;
+    }
   }
 
   img {
@@ -89,8 +176,9 @@ header {
   }
 
   h1 {
-    font-family: 'victor_serif_trialthin';
-    font-size: 20px;
+    font-family: 'Golden Plains';
+    font-size: 40px;
+    font-weight: 100;
     letter-spacing: 1px;
   }
 
@@ -111,7 +199,7 @@ header {
 
   .eh-image_cover {
     transition: all ease-in-out 0.75s;
-    opacity: 0;
+    opacity: 1;
 
     &.inview {
       opacity: 1;
@@ -138,16 +226,23 @@ header {
     font-size: 14px;
     font-family: monospace;
     margin-top: 10px;
-    position: absolute;
-    bottom: 40px;
+    position: fixed;
+    bottom: 30px;
+    left: 10%;
+
+    @include mq($from: desktop) {
+      left: 2%;
+    }
   }
 
   ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .eh-cover {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -157,6 +252,12 @@ header {
     display: flex;
     transition: all ease-in 0.5;
     transition-delay: 1s !important;
+    flex-direction: column;
+
+    @include mq($from: desktop) {
+      flex-direction: row;
+      position: absolute;
+    }
 
     &.darkColour {
       p {
@@ -166,9 +267,23 @@ header {
 
     p {
       font-family: 'victor_serif_trialthin';
-      font-size: 30px;
+      font-size: 26px;
       line-height: 1.2;
-      max-width: 600px;
+      max-width: 80%;
+
+      @include mq($from: desktop) {
+        max-width: 600px;
+        font-size: 30px;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        font-family: monospace;
+      }
     }
 
     > div {
@@ -178,11 +293,16 @@ header {
       height: 90vh;
       position: relative;
 
+
       img {
         width: 90%;
         height: auto;
-        position: absolute;
+        position: relative;
         bottom: 0;
+
+        @include mq($from: desktop) {
+          position: absolute;
+        }
       }
     }
   }
@@ -204,11 +324,27 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 90vh;
+    height: auto;
+    width: 80%;
+
+    @include mq($from: desktop) {
+      height: 78vh;
+      width: auto;
+    }
+    @include mq($from: wide) {
+      height: 78vh;
+      width: auto;
+    }
 
     img {
-      width: auto;
-      height: 100%;
+      width: 100%;
+      height: auto;
+
+      @include mq($from: desktop) {
+        width: auto;
+        height: 100%;
+      }
+
     }
   }
 
@@ -222,9 +358,9 @@ header {
   }
 
   .eh-name {
-    position: absolute;
+    position: fixed;
     top: 20px;
-    right: 0;
+    right: -20px;
     transform: rotate(90deg) translate(50%, -50%);
     transform-origin: center;
     z-index: 100;
@@ -241,6 +377,58 @@ header {
 
     &.current {
       border-bottom: 1px solid #121212;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+  }
+
+  .about-client-list {
+    flex-basis: 100px;
+    margin-top: 80px;
+    font-family: monospace;
+  }
+}
+
+.about-intro {
+  font-family: 'victor_serif_trialthin';
+  font-size: 33px;
+  line-height: 1.2;
+  max-width: 800px;
+  background-color: #fff;
+
+  @include mq($from: desktop) {
+    font-size: 50px;
+  }
+}
+
+.about-footer {
+  position: fixed;
+  bottom: 50px;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+  }
+
+
+  span {
+
+    @include mq($from: desktop) {
+        margin-left: 20px;
+    }
+
+    &:nth-child(1) {
+      margin-left: 0;
     }
   }
 }
