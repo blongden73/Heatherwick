@@ -5,5 +5,6 @@ Images:
 - Image: "/uploads/Dionese,-Haiti.jpg"
   Quote: 
 Extras: Haiti
+layout: post
 ---
 
