@@ -5,5 +5,6 @@ Images:
 - Image: "/uploads/Diana-Evans,-London.jpg"
   Quote: 
 Field name: London
+layout: post
 ---
 
