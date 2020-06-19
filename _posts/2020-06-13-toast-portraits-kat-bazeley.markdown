@@ -1,5 +1,5 @@
 ---
-title: Toast Portraits - Kat Bazeley
+title: Toast Portraits
 date: 2020-06-13 18:01:00 Z
 Images:
 - Image: "/uploads/Kat-Bazeley-5.jpg"
@@ -12,6 +12,7 @@ Images:
   Quote: 
 - Image: "/uploads/Kat-Bazeley-4.jpg"
   Quote: 
+Extras: Kat Bazeley
 ---
 
 “When you’ve a menagerie of creatures – as Kat Bazeley does at her home, School
