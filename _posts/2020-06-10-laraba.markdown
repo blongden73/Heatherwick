@@ -14,5 +14,6 @@ Images:
   Quote: 
 - Image: "/uploads/Laraba-6.jpg"
   Quote: 
+layout: post
 ---
 

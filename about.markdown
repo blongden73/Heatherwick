@@ -1,12 +1,35 @@
 ---
 title: About
 permalink: "/about/"
-Description: "UN\nIRC (International Rescue Committee)\nOxfam\nSave The Children\nWaterAid\nThe
-  Guardian \nThe Telegraph Magazine\nThe Sunday Times Magazine\nThe Times\nThe New
-  Statesman\nThe Washington Post\nCorriere della Sera\nBloomberg\nWallpaper*\nMonocle\nRakesprogress\nNoble
-  Rot\nIt's Nice That\nBBC\nTOAST\nAPPLE (although that is work in progress so may
-  have to keep that one off the site depending on when it goes live)\nUnilever\nCarl
-  Hansen & Son\nPUBLISHERS:\nBloomsbury\nPenguin\nOctopus\nNational Portrait Gallery"
+Description: |-
+  UN
+  IRC (International Rescue Committee)
+  Oxfam
+  Save The Children
+  WaterAid
+  The Guardian
+  The Telegraph Magazine
+  The Sunday Times Magazine
+  The Times
+  The New Statesman
+  The Washington Post
+  Corriere della Sera
+  Bloomberg
+  Wallpaper\*
+  Monocle
+  Rakesprogress
+  Noble Rot
+  It's Nice That
+  BBC
+  TOAST
+  APPLE (although that is work in progress so may have to keep that one off the site depending on when it goes live)
+  Unilever
+  Carl Hansen & Son
+  PUBLISHERS:
+  Bloomsbury
+  Penguin
+  Octopus
+  National Portrait Gallery
 layout: about
 ---
 
