@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-ClientDescription: "UN\nIRC (International Rescue Committee)\nOxfam\nSave The Children\nWaterAid\nThe
+Description: "UN\nIRC (International Rescue Committee)\nOxfam\nSave The Children\nWaterAid\nThe
   Guardian \nThe Telegraph Magazine\nThe Sunday Times Magazine\nThe Times\nThe New
   Statesman\nThe Washington Post\nCorriere della Sera\nBloomberg\nWallpaper*\nMonocle\nRakesprogress\nNoble
   Rot\nIt's Nice That\nBBC\nTOAST\nAPPLE (although that is work in progress so may
