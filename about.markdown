@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-Client description: |-
+ClientDescription: |-
   UN
   IRC (International Rescue Committee)
   Oxfam
