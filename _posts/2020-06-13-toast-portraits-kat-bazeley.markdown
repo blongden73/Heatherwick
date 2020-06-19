@@ -13,6 +13,7 @@ Images:
 - Image: "/uploads/Kat-Bazeley-4.jpg"
   Quote: 
 Extras: Kat Bazeley
+layout: post
 ---
 
 “When you’ve a menagerie of creatures – as Kat Bazeley does at her home, School
