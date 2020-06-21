@@ -292,13 +292,14 @@ header {
     }
 
     > div {
-      flex-basis: 50%;
+      flex-basis: 22%;
       padding-left: 20px;
       padding-right: 20px;
       position: relative;
 
       @include mq($from: desktop) {
         height: 90vh;
+        flex-basis: 50%;
       }
 
       h1 {
