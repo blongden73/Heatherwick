@@ -50,6 +50,7 @@ header {
     cursor: pointer;
     transition: all ease-in-out 0.5s;
     letter-spacing: -3px;
+    text-align: center;
 
     @include mq($from: desktop) {
       letter-spacing: 0.5px;
@@ -239,7 +240,6 @@ header {
     @include mq($from: desktop) {
       left: 2%;
       bottom: 30px;
-      left: 10%;
       transform: none;
     }
   }
@@ -260,13 +260,14 @@ header {
     background-color: #ded6cfd4;
     padding: 20px;
     display: flex;
-    transition: all ease-in 0.5;
-    transition-delay: 1s !important;
+    transition: all ease-in 0.75;
+    transition-delay: 0.7s !important;
     flex-direction: column;
 
     @include mq($from: desktop) {
       flex-direction: row;
       position: absolute;
+      min-height: 90vh;
     }
 
     &.darkColour {
@@ -304,7 +305,7 @@ header {
 
       @include mq($from: desktop) {
         height: 90vh;
-        flex-basis: 50%;
+        flex-basis: 47%;
       }
 
       h1 {
@@ -323,6 +324,9 @@ header {
 
         @include mq($from: desktop) {
           position: absolute;
+          object-fit: contain;
+          width: calc(100% - 40px);
+          height: 100%;
         }
       }
     }
@@ -331,7 +335,7 @@ header {
   .eh-carousel {
     opacity: 0;
     transition: opacity 0.75s ease-in-out;
-    transition-delay: 0.1s;
+    transition-delay: 0.7s;
     pointer-events: none;
 
     &.display {
