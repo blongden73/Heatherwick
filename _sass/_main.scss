@@ -163,7 +163,7 @@ header {
   }
 
   &:nth-child(2n+2) {
-    margin-top: 50px;
+    margin-top: 20px;
 
     @include mq($from: desktop) {
       margin-top: 200px;
@@ -185,7 +185,6 @@ header {
 
   .eh-image_wrapper {
     position: relative;
-    background-color: #E5C0A3;
 
     a {
       position: absolute;
@@ -208,7 +207,7 @@ header {
   }
 
   .eh-image-num {
-    font-size: 14px;
+    font-size: 12px;
     font-family: monospace;
     margin-top: 10px;
     letter-spacing: -3px;
@@ -224,15 +223,20 @@ header {
   cursor:pointer;
 
   .eh-image-num {
-    font-size: 14px;
+    font-size: 12px;
     font-family: monospace;
     margin-top: 10px;
     position: fixed;
-    bottom: 30px;
-    left: 10%;
+    bottom: 10px;
+    left: 20px;
+    transform: rotate(-90deg);
+    transform-origin: left;
 
     @include mq($from: desktop) {
       left: 2%;
+      bottom: 30px;
+      left: 10%;
+      transform: none;
     }
   }
 
@@ -335,10 +339,10 @@ header {
   .eh-images {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%,-50%);
     height: auto;
-    width: 80%;
+    width: 72%;
 
     @include mq($from: desktop) {
       height: 78vh;
@@ -379,7 +383,7 @@ header {
     z-index: 100;
 
     h1 {
-      font-size: 14px;
+      font-size: 12px;
       font-family: monospace;
       font-weight: 100;
     }
