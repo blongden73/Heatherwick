@@ -44,12 +44,16 @@ header {
     left: 50%;
     transform: translate(-50%, -40%);
     font-family: 'victor_serif_trialthin';
-    letter-spacing: 0.5px;
     color: #e6e6e6;
     font-size: 52px;
     z-index: 10;
     cursor: pointer;
     transition: all ease-in-out 0.5s;
+    letter-spacing: -3px;
+
+    @include mq($from: desktop) {
+      letter-spacing: 0.5px;
+    }
 
     span {
       transition: all ease-in-out 0.5s;
