@@ -122,15 +122,9 @@ function init(){
   console.log('init', 'v2');
   imagesScroller();
   if(homepage) {
-    setTimeout(function(){
-      color('.eh-image_cover');
-    },1000)
     menu();
   }
   if(post) {
-    setTimeout(function(){
-      color('.intro_image', '.eh-cover');
-    },1000)
     carousel();
   }
 } init();
