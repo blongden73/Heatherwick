@@ -8,9 +8,11 @@ layout: default
   </div>
   <ul>
     <li class="eh-cover eh-carousel">
+      {% if content %}
       <div class="eh-intro">
         <p>{{content}}</p>
       </div>
+      {% endif %}
       <div class="eh-intro_image">
         <img class="intro_image" src="{{page.Images[0].Image}}">
       </div>
