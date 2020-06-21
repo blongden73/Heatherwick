@@ -111,7 +111,7 @@ header {
   width: 100%;
   min-height: 300px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
   @include mq($from: desktop) {
     flex-basis: 32%;
@@ -180,6 +180,7 @@ header {
     font-size: 40px;
     font-weight: 100;
     letter-spacing: 1px;
+    margin-top: 5px;
   }
 
   .eh-image_wrapper {
@@ -290,8 +291,12 @@ header {
       flex-basis: 50%;
       padding-left: 20px;
       padding-right: 20px;
-      height: 90vh;
       position: relative;
+      min-height: 20vh;
+
+      @include mq($from: desktop) {
+        height: 90vh;
+      }
 
 
       img {
