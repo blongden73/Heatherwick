@@ -2,8 +2,7 @@
 title: Laraba
 date: 2020-06-10 10:01:00 Z
 Images:
-- Image: "/uploads/laraba.jpg"
-  Quote: 
+- Quote: 
 - Image: "/uploads/Mubi-5.jpg"
   Quote: 
 - Image: "/uploads/Laraba-4.jpg"
@@ -14,6 +13,7 @@ Images:
   Quote: 
 - Image: "/uploads/Laraba-6.jpg"
   Quote: 
+Main Image: "/uploads/laraba.jpg"
 layout: post
 ---
 
