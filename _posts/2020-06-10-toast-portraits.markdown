@@ -16,7 +16,7 @@ Images:
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-6.jpg"
   Quote: 
 Extras: Rachel Rody
-Main Image: "/uploads/TOAST-Portraits_RachelRoddy-14.jpg"
+MainImage: "/uploads/TOAST-Portraits_RachelRoddy-14.jpg"
 layout: post
 ---
 
