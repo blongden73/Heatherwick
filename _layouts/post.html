@@ -10,12 +10,12 @@ layout: default
     <li class="eh-cover eh-carousel">
       {% if content %}
       <div class="eh-intro">
-        <h1>{{page.title}}</h1>
+        <a href="/"><h1>{{page.title}}</h1></a>
         <p>{{content}}</p>
       </div>
       {% endif %}
       <div class="eh-intro_image">
-        <img class="intro_image" src="{{page.Images[0].Image}}">
+        <img class="intro_image" src="{{page.MainImage}}">
       </div>
     </li>
   {% assign image = page.Images %}
