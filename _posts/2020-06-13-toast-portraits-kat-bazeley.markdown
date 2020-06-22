@@ -2,8 +2,7 @@
 title: Toast Portraits
 date: 2020-06-13 18:01:00 Z
 Images:
-- Image: "/uploads/Kat-Bazeley-5.jpg"
-  Quote: 
+- Quote: 
 - Image: "/uploads/KatBazeley-1.jpg"
   Quote: 
 - Image: "/uploads/Kat-Bazeley-14.jpg"
@@ -13,6 +12,7 @@ Images:
 - Image: "/uploads/Kat-Bazeley-4.jpg"
   Quote: 
 Extras: Kat Bazeley
+Main Image: "/uploads/Kat-Bazeley-5.jpg"
 layout: post
 ---
 
