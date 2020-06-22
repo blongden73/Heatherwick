@@ -2,7 +2,6 @@
 title: Toast Portraits
 date: 2020-06-10 12:02:00 Z
 Images:
-- Quote: 
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-7.jpg"
   Quote: 
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-17.jpg"
