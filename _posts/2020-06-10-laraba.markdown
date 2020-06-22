@@ -13,7 +13,7 @@ Images:
   Quote: 
 - Image: "/uploads/Laraba-6.jpg"
   Quote: 
-Main Image: "/uploads/laraba.jpg"
+MainImage: "/uploads/laraba.jpg"
 layout: post
 ---
 
