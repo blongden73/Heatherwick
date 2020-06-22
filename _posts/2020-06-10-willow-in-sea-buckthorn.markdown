@@ -19,7 +19,7 @@ Images:
     we hear a robin call out his warning that we are on his land now.”
 
     - Lindsay Sekulowicz
-Main Image: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
+MainImage: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
 layout: post
 ---
 
