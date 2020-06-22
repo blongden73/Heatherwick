@@ -2,8 +2,7 @@
 title: Toast Portraits
 date: 2020-06-10 12:02:00 Z
 Images:
-- Image: "/uploads/TOAST-Portraits_RachelRoddy-14.jpg"
-  Quote: 
+- Quote: 
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-7.jpg"
   Quote: 
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-17.jpg"
@@ -17,6 +16,7 @@ Images:
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-6.jpg"
   Quote: 
 Extras: Rachel Rody
+Main Image: "/uploads/TOAST-Portraits_RachelRoddy-14.jpg"
 layout: post
 ---
 
