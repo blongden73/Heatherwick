@@ -2,8 +2,7 @@
 title: Summer Kitchens
 date: 2020-06-10 12:00:00 Z
 Images:
-- Image: "/uploads/Ukraine-11.jpg"
-  Quote: 
+- Quote: 
 - Image: "/uploads/UKRAINE-3-copy.jpg"
   Quote: 
 - Image: "/uploads/Ukraine-10.jpg"
@@ -23,6 +22,8 @@ Images:
   Quote: 
 - Image: "/uploads/Ukraine-7.jpg"
   Quote: 
+New Image: "/uploads/Ukraine-11.jpg"
+Field name: 
 layout: post
 ---
 
