@@ -2,7 +2,6 @@
 title: Plantae Amazonicae
 date: 2020-06-10 12:00:00 Z
 Images:
-- Quote: 
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-2.jpg"
   Quote: 
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-6.jpg"
@@ -15,7 +14,7 @@ Images:
   Quote: 
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-12.jpg"
   Quote: 
-Main Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-8.jpg"
+MainImage: "/uploads/PlantaeAmazonicae_Lindsay_Kew-8.jpg"
 layout: post
 ---
 
