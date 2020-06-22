@@ -2,8 +2,7 @@
 title: Willow in Sea Buckthorn
 date: 2020-06-10 11:59:00 Z
 Images:
-- Image: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
-  Quote: 
+- Quote: 
 - Image: "/uploads/TOAST-Portraits_WillowWalker-11.jpg"
   Quote: 
 - Image: "/uploads/TOAST-Portraits_WillowWalker-13.jpg"
@@ -20,6 +19,7 @@ Images:
     we hear a robin call out his warning that we are on his land now.”
 
     - Lindsay Sekulowicz
+Main Image: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
 layout: post
 ---
 
