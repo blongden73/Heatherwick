@@ -7,7 +7,7 @@ Images:
   Quote: 
 - Image: 
   Quote: 
-Main Image: "/uploads/Ukraine.jpg"
+MainImage: "/uploads/Ukraine.jpg"
 layout: post
 ---
 
