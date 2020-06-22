@@ -2,8 +2,7 @@
 title: Education not walls
 date: 2020-06-10 11:12:00 Z
 Images:
-- Image: "/uploads/Bosnia_STC-8-c0a618.jpg"
-  Quote: 
+- Quote: 
 - Image: "/uploads/Bosnia_STC-5.jpg"
   Quote: 
 - Image: "/uploads/Bosnia_STC-7-49eb29.jpg"
@@ -22,6 +21,7 @@ Images:
   Quote: 
 Location: Bosnia
 Client: Bihac
+Main Image: "/uploads/Bosnia_STC-8-c0a618.jpg"
 layout: post
 ---
 
