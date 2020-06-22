@@ -12,7 +12,7 @@ Images:
 - Image: "/uploads/Kat-Bazeley-4.jpg"
   Quote: 
 Extras: Kat Bazeley
-Main Image: "/uploads/Kat-Bazeley-5.jpg"
+MainImage: "/uploads/Kat-Bazeley-5.jpg"
 layout: post
 ---
 
