@@ -18,7 +18,7 @@ Images:
   Quote: 
 - Image: "/uploads/Crete_CookBook-3-bdfe13.jpg"
   Quote: 
-Extras: Recipes from the Mountains to the Sea
+Extras: Crete
 MainImage: "/uploads/Crete_CookBook-21-0310b8.jpg"
 layout: post
 ---
