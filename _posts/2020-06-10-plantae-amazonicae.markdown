@@ -15,6 +15,7 @@ Images:
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-12.jpg"
   Quote: 
 MainImage: "/uploads/PlantaeAmazonicae_Lindsay_Kew-8.jpg"
+Extras: Kew
 layout: post
 ---
 
