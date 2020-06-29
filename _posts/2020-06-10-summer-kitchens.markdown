@@ -22,7 +22,7 @@ Images:
 - Image: "/uploads/Ukraine-7.jpg"
   Quote: 
 MainImage: "/uploads/Ukraine-11.jpg"
-Field name: 
+Extras: Ukraine
 layout: post
 ---
 
