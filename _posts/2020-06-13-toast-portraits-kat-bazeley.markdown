@@ -2,7 +2,6 @@
 title: Toast Portraits
 date: 2020-06-13 18:01:00 Z
 Images:
-- Quote: 
 - Image: "/uploads/KatBazeley-1.jpg"
   Quote: 
 - Image: "/uploads/Kat-Bazeley-14.jpg"
