@@ -20,8 +20,7 @@ Images:
   Quote: 
 - Image: "/uploads/Bosnia_STC-9-e38bf8.jpg"
   Quote: 
-Location: Bosnia
-Client: Bihac
+Extras: Bosnia - Bihac
 MainImage: "/uploads/Bosnia_STC-8-c0a618.jpg"
 layout: post
 ---
