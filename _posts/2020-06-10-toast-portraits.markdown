@@ -1,6 +1,7 @@
 ---
 title: Rachel Rody
 date: 2020-06-10 12:02:00 Z
+permalink: "/Rachel-Rody"
 Images:
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-7.jpg"
   Quote: 
