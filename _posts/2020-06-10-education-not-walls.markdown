@@ -8,8 +8,7 @@ Images:
 - Quote: |-
     “I think the moon is more beautiful than the sun, because the sun has light,
     pushes light...but the moon holds light.”
-    - Aydin, 16
-      Iran
+    - Aydin, 16 Iran
 - Image: "/uploads/Bosnia_STC-18.jpg"
   Quote: 
 - Image: "/uploads/Bosnia_STC-10.jpg"
