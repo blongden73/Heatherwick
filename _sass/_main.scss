@@ -310,6 +310,8 @@ header {
     @include mq($from: desktop) {
       bottom: 30px;
       transform: none;
+      bottom: 20px;
+      left: 20px;
     }
   }
 
@@ -353,7 +355,7 @@ header {
 
       @include mq($from: desktop) {
         max-width: 600px;
-        font-size: 30px;
+        font-size: 20px;
       }
     }
 
@@ -531,7 +533,7 @@ header {
     white-space: break-spaces;
 
     @include mq($until: tablet) {
-      margin-top: 0px;  
+      margin-top: 0px;
     }
   }
 }
@@ -557,10 +559,15 @@ header {
 .about-footer {
   position: relative;
   margin-top: 40px;
+  margin-left: 20px;
   bottom: 20px;
   font-family: monospace;
   display: flex;
   flex-direction: column;
+
+  &.about {
+    margin-left: 0;
+  }
 
   @include mq($from: desktop) {
     flex-direction: row;
