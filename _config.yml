@@ -5,6 +5,7 @@ collections:
   posts:
     title: Projects
     output: true
+    Permalink: "/:title/"
   uploads:
     title: Uploads
     output: true
