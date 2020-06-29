@@ -529,6 +529,10 @@ header {
     margin-top: 80px;
     font-family: monospace;
     white-space: break-spaces;
+
+    @include mq($until: tablet) {
+      margin-top: 0px;  
+    }
   }
 }
 
@@ -557,7 +561,6 @@ header {
   font-family: monospace;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
 
   @include mq($from: desktop) {
     flex-direction: row;
@@ -566,7 +569,6 @@ header {
   }
 
   .eh-wrapper & {
-    padding: 20px;
 
     @include mq($from: desktop) {
       padding: 0;
