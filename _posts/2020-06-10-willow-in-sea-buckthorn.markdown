@@ -21,6 +21,7 @@ Images:
 
     - Lindsay Sekulowicz
 MainImage: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
+Extras: Sea Buckthorn
 layout: post
 ---
 
