@@ -152,7 +152,7 @@ header {
     padding-top: 90px;
 
     @include mq($from: desktop) {
-      padding-top: 30px;  
+      padding-top: 30px;
     }
   }
 }
@@ -378,10 +378,14 @@ header {
 
       &.eh-intro_image {
         position: absolute;
-        width: 47%;
+        width: 80%;
         bottom: 30px;
         right: 0;
         max-width: 690px;
+
+        @include mq($from: desktop) {
+          width: 47%;
+        }
       }
 
       h1 {
@@ -393,7 +397,7 @@ header {
       }
 
       img {
-        width: 90%;
+        width: 100%;
         height: auto;
         position: relative;
         bottom: 0;
