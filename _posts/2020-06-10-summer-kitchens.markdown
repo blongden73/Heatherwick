@@ -7,8 +7,7 @@ Images:
   Quote: 
 - Image: "/uploads/Ukraine-10.jpg"
   Quote: 
-- Image: "/uploads/UKRAINE-5-copy.jpg"
-  Quote: "Next to the summer kitchen, we have a garage, and a barn which is used as
+- Quote: "Next to the summer kitchen, we have a garage, and a barn which is used as
     a\ncowshed and pigpen. Right by it all is our vegetable patch, and then there’s
     the\nallotment. The other, bigger allotment, is a 30 minute walk away.\nMy brightest
     memory comes from a summer’s day. Hail started and everyone\nappeared in the summer
@@ -22,6 +21,7 @@ Images:
   Quote: 
 - Image: "/uploads/Ukraine-7.jpg"
   Quote: 
+- Image: "/uploads/UKRAINE-5-copy.jpg"
 MainImage: "/uploads/Ukraine-11.jpg"
 Extras: Ukraine
 layout: post
