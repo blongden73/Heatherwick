@@ -22,8 +22,7 @@ Images:
   Quote: 
 - Image: 
   Quote: 
-Location: Rwanda
-Client: 
+Extras: Rwanda
 MainImage: "/uploads/Radio-Ishingiro_ElenaHeatherwick-1-b0d922.jpg"
 layout: post
 ---
