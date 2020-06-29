@@ -13,12 +13,12 @@ Images:
   Quote: 
 - Image: "/uploads/TOAST-Portraits_WillowWalker-7.jpg"
   Quote: 
-- Image: "/uploads/TOAST-Portraits_WillowWalker-3-944e6b.jpg"
-  Quote: |-
+- Quote: |-
     “With a large bucket tucked under her arm, she burrows deep into a thicket and
     we hear a robin call out his warning that we are on his land now.”
 
     - Lindsay Sekulowicz
+- Image: "/uploads/TOAST-Portraits_WillowWalker-3-944e6b.jpg"
 MainImage: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
 Extras: Sea Buckthorn
 layout: post
