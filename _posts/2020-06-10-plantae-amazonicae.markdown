@@ -1,6 +1,7 @@
 ---
 title: Plantae Amazonicae
 date: 2020-06-10 12:00:00 Z
+permalink: "/Plantae-Amazonicae"
 Images:
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-2.jpg"
   Quote: 
