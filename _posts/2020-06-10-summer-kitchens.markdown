@@ -1,6 +1,7 @@
 ---
 title: Summer Kitchens
 date: 2020-06-10 12:00:00 Z
+permalink: "/summer-kitchens"
 Images:
 - Image: "/uploads/UKRAINE-3-copy.jpg"
   Quote: 
