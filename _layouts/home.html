@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<div class="eh-posts eh-wrapper">
+<div class="eh-posts">
   {% for post in site.posts %}
-      <div class="eh-post_base">
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      <div class="eh-post_base" {% if thecycle == 'odd' %} uk-parallax="y: 50,0" {% endif %} {% if thecycle == 'even' %} uk-parallax="y: 200,0" {% endif %}>
+        <a href="{{post.url}}"></a>
         <h2>{{post.Extras}}</h2>
         <div class="eh-image_wrapper">
-          <a href="{{post.url}}"></a>
           <img class="eh-image_cover" src="{{post.MainImage}}">
         </div>
         <div class="eh-image-num">

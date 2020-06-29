@@ -84,9 +84,16 @@ function color(selector, parent){
 function menu(){
   var menuButton = document.querySelector('.js-nav-open');
   var navOptions = document.querySelector('.eh-nav');
-  menuButton.addEventListener('click', function(){
-    this.classList.toggle('open');
-    navOptions.classList.toggle('open');
+  var header = document.querySelector('header');
+  header.addEventListener('mouseover', function(){
+    this.classList.add('open');
+    navOptions.classList.add('open');
+  });
+  header.addEventListener('mouseleave', function(){
+    setTimeout(function(){
+      header.classList.remove('open');
+      navOptions.classList.remove('open');
+    }, 2000);
   });
 }
 

@@ -14,13 +14,8 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Golden Plains';
-    src: url('GoldenPlains.woff2') format('woff2'),
-        url('GoldenPlains.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+body {
+  margin: 0;
 }
 
 a {
@@ -30,27 +25,52 @@ a {
 
 header {
   width: 100%;
-  height: 80vh;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position: fixed;
+  z-index: 100;
+  transition: all ease-in-out 0.5s;
+  transition-delay: 0.5s;
+
+  &:hover {
+    background-color: #ded6cf;
+    span {
+      color: #121212;
+    }
+  }
+
+  &.open {
+    background-color: #ded6cf;
+
+    h1 {
+      color: #121212;
+    }
+
+    ul {
+      li {
+        color: #121212;
+      }
+    }
+  }
 
   &.post {
     h1 {
-      display: none;
+      color: #00000036;
     }
   }
 
   h1 {
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
     font-family: 'victor_serif_trialthin';
     color: #e6e6e6;
-    font-size: 52px;
+    font-size: 32px;
     z-index: 10;
     cursor: pointer;
     transition: all ease-in-out 0.5s;
     letter-spacing: -3px;
-    text-align: center;
+    text-align: left;
+    margin: 0;
+    margin-left: 20px;
 
     @include mq($from: desktop) {
       letter-spacing: 0.5px;
@@ -58,6 +78,14 @@ header {
 
     span {
       transition: all ease-in-out 0.5s;
+
+      &.asterix {
+        font-family: monospace;
+        font-size: 28px;
+        display: inline-block;
+        transform: translateY(-9px);
+      }
+
       &.open {
         color: #121212;
       }
@@ -69,7 +97,7 @@ header {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   height: 0;
   transition: all ease-in-out 0.5s;
@@ -78,7 +106,7 @@ header {
   &.open {
     transition-delay: 0.5s;
     display: block;
-    height: 173px;
+    height: 133px;
   }
 
   li {
@@ -86,22 +114,15 @@ header {
   }
 }
 
+.home + main {
+  .eh-wrapper {
+    padding-top: 90px;
+  }
+}
+
 .eh-wrapper {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include mq($from: desktop) {
-    width: 980px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @include mq($from: wide) {
-    width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: calc(100% - 60px);
+  margin-left: 20px;
 }
 
 .eh-posts {
@@ -117,10 +138,22 @@ header {
   min-height: 300px;
   position: relative;
   margin-bottom: 20px;
+  cursor: pointer;
+
+  a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    cursor:url('/uploads/crosshair.png'), auto;
+    cursor: pointer;
+  }
 
   @include mq($from: desktop) {
-    flex-basis: 32%;
-    width: 32%;
+    flex-basis: 23%;
+    width: 23%;
     margin-bottom: 200px;
   }
 
@@ -138,8 +171,9 @@ header {
     width: 100%;
 
     @include mq($from: desktop) {
-      flex-basis: 50%;
-      width: 50%;
+      flex-basis: 36%;
+      width: 36%;
+      margin-right: 20%;
     }
 
     h2 {
@@ -155,8 +189,9 @@ header {
     width: 100%;
 
     @include mq($from: desktop) {
-      flex-basis: 50%;
-      width: 50%;
+      flex-basis: 36%;
+      width: 36%;
+      margin-right: 20%;
     }
 
     h2 {
@@ -181,7 +216,7 @@ header {
   }
 
   h1 {
-    font-family: 'Golden Plains';
+    font-family: 'victor_serif_trialthin';
     font-size: 26px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -194,16 +229,6 @@ header {
 
   .eh-image_wrapper {
     position: relative;
-
-    a {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      z-index: 10;
-      cursor:url('/uploads/crosshair.png'), auto;
-    }
   }
 
   .eh-image_cover {
@@ -242,7 +267,6 @@ header {
     transform-origin: left;
 
     @include mq($from: desktop) {
-      left: 2%;
       bottom: 30px;
       transform: none;
     }
@@ -270,8 +294,8 @@ header {
 
     @include mq($from: desktop) {
       flex-direction: row;
-      position: absolute;
-      min-height: 90vh;
+      position: relative;
+      min-height: calc(100vh - 40px);
     }
 
     &.darkColour {
@@ -303,21 +327,28 @@ header {
 
     > div {
       flex-basis: 22%;
-      padding-left: 20px;
       padding-right: 20px;
       position: relative;
 
       @include mq($from: desktop) {
-        height: 90vh;
+        height: auto;
         flex-basis: 47%;
       }
 
+      &.eh-intro_image {
+        position: absolute;
+        width: 47%;
+        bottom: 30px;
+        right: 0;
+        max-width: 690px;
+      }
+
       h1 {
-        font-family: 'Golden Plains';
+        font-family: 'victor_serif_trialthin';
         font-size: 40px;
         font-weight: 100;
         letter-spacing: 1px;
-        margin-top: 32px;
+        margin-top: 52px;
       }
 
       img {
@@ -327,7 +358,6 @@ header {
         bottom: 0;
 
         @include mq($from: desktop) {
-          position: absolute;
           object-fit: contain;
           width: calc(100% - 40px);
           height: 100%;
@@ -449,6 +479,7 @@ header {
   max-width: 800px;
   background-color: #fff;
   padding-right: 30px;
+  margin-top: 120px;
 
   p {
     margin-top: 0;
@@ -466,6 +497,7 @@ header {
   font-family: monospace;
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
 
   @include mq($from: desktop) {
     flex-direction: row;
