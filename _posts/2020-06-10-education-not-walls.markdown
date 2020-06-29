@@ -3,15 +3,12 @@ title: Education not walls
 date: 2020-06-10 11:12:00 Z
 permalink: "/Education-not-walls"
 Images:
-- Quote: 
 - Image: "/uploads/Bosnia_STC-5.jpg"
   Quote: 
-- Image: "/uploads/Bosnia_STC-7-49eb29.jpg"
-  Quote: |-
+- Quote: |-
     “I think the moon is more beautiful than the sun, because the sun has light,
     pushes light...but the moon holds light.”
-    - Aydin, 16
-      Iran
+    - Aydin, 16 Iran
 - Image: "/uploads/Bosnia_STC-18.jpg"
   Quote: 
 - Image: "/uploads/Bosnia_STC-10.jpg"
@@ -19,6 +16,8 @@ Images:
 - Image: "/uploads/Bosnia_STC-17.jpg"
   Quote: 
 - Image: "/uploads/Bosnia_STC-9-e38bf8.jpg"
+  Quote: 
+- Image: "/uploads/Bosnia_STC-7-49eb29.jpg"
   Quote: 
 Extras: Bosnia - Bihac
 MainImage: "/uploads/Bosnia_STC-8-c0a618.jpg"
