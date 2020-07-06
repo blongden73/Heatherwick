@@ -9,4 +9,4 @@ Description: "UN\nIRC (International Rescue Committee)\nOxfam\nSave The Children
 layout: about
 ---
 
-Hello, I'm Elena, I am a photographer who shoots on film first. I work with people to who share a passion in crafting stories. I believe words and pictures are equal; the balance each other out. If you have a story to tell, please let's talk.
+Hello, I'm Elena, I am a photographer who shoots on film first, I work with people who share a passion in crafting stories. I believe words and photography are equal - they balance each other out. If you have a story to tell, get in touch.
