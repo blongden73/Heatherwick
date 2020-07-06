@@ -7,9 +7,7 @@ layout: default
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       <div class="eh-post_base" {% if thecycle == 'odd' %} uk-parallax="y: 50,0" {% endif %} {% if thecycle == 'even' %} uk-parallax="y: 200,0" {% endif %}>
         <!-- if index is < 1 -->
-        {% if forloop.index > 1 %}
-          <a href="{{post.url}}"></a>
-        {% endif %}
+        <a href="{{post.url}}"></a>
         <h2>{{post.Extras}}</h2>
         <div class="eh-image_wrapper">
           <img class="eh-image_cover" src="{{post.MainImage}}">
