@@ -121,7 +121,7 @@ header {
   &.open {
     transition-delay: 0.5s;
     display: block;
-    height: 153px;
+    height: 60px;
   }
 
   li {
@@ -355,7 +355,7 @@ header {
 
       @include mq($from: desktop) {
         max-width: 600px;
-        font-size: 20px;
+        font-size: 25px;
       }
     }
 
@@ -385,15 +385,14 @@ header {
         max-width: 690px;
 
         @include mq($from: desktop) {
-          width: 47%;
-          position: absolute;
-          bottom: 30px;
+          width: 50%;
+          max-width: 50%;
         }
       }
 
       h1 {
         font-family: 'victor_serif_trialthin';
-        font-size: 40px;
+        font-size: 32px;
         font-weight: 100;
         letter-spacing: 1px;
         margin-top: 52px;
@@ -407,8 +406,12 @@ header {
 
         @include mq($from: desktop) {
           object-fit: contain;
-          width: calc(100% - 40px);
-          height: 100%;
+          width: 90%;
+          height: 90%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
         }
       }
     }
@@ -419,9 +422,11 @@ header {
     transition: opacity 0.75s ease-in-out;
     transition-delay: 0.7s;
     pointer-events: none;
+    display: none;
 
     &.display {
       pointer-events: all;
+      display: flex;
       opacity: 1;
     }
   }

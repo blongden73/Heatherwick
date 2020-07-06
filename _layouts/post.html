@@ -4,7 +4,7 @@ layout: default
 
 <div class="eh-post__wrapper">
   <ul>
-    <li class="eh-cover eh-carousel">
+    <!-- <li class="eh-cover eh-carousel">
       {% if content %}
       <div class="eh-intro">
         <a href="/"><h1>{{page.title}}</h1></a>
@@ -14,7 +14,16 @@ layout: default
       <div class="eh-intro_image">
         <img class="intro_image" src="{{page.MainImage}}">
       </div>
-    </li>
+    </li> -->
+  <li class="eh-cover eh-carousel">
+    <div class="eh-intro">
+      <a href="/"><h1>{{page.title}}</h1></a>
+      <p>{{content}}</p>
+    </div>
+    <div class="eh-intro_image">
+      <img class="intro_image" src="{{page.MainImage}}">
+    </div>
+  </li>
   {% assign image = page.Images %}
   {% for image in image %}
     <li class="eh-images eh-carousel {% if image.Quote %}eh-quote{% endif %}">

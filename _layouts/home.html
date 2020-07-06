@@ -6,6 +6,7 @@ layout: default
   {% for post in site.posts %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       <div class="eh-post_base" {% if thecycle == 'odd' %} uk-parallax="y: 50,0" {% endif %} {% if thecycle == 'even' %} uk-parallax="y: 200,0" {% endif %}>
+        <!-- if index is < 1 -->
         <a href="{{post.url}}"></a>
         <h2>{{post.Extras}}</h2>
         <div class="eh-image_wrapper">

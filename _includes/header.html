@@ -1,9 +1,8 @@
 <header class="{{page.layout}}">
-  <h1><span class="js-nav-open">Elena Heatherwick<span class="asterix">*</span></span>
+  <h1><span class="js-nav-open"><a href="/">Elena Heatherwick</a><span class="asterix">*</span></span>
     <ul class="eh-nav">
-      <li><a href="/">Projects</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/about">Contact</a></li>
+      {% if page.layout != "home" %}<li><a href="/">Projects</a></li>{% endif %}
+      {% if page.layout != "about" %}<li><a href="/about">About</a></li>{% endif %}
     </ul>
   </h1>
   <div class="eh-menu">
