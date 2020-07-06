@@ -124,10 +124,22 @@ function carousel(){
   });
 }
 
+function menuButton(){
+  var menuButton = document.querySelector('.eh-menu');
+  var header = document.querySelector('header');
+  var navOptions = document.querySelector('.eh-nav');
+  menuButton.addEventListener('click', function(){
+    console.log('click');
+    header.classList.toggle('open');
+    navOptions.classList.toggle('open');
+  });
+}
+
 
 function init(){
   console.log('init', 'v2');
   imagesScroller();
+  menuButton();
   if(homepage) {
     menu();
   }

@@ -451,6 +451,7 @@ header {
     img {
       width: 100%;
       height: auto;
+      object-fit: contain;
 
       @include mq($from: desktop) {
         width: auto;
