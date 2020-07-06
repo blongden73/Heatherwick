@@ -101,6 +101,8 @@ function carousel(){
   var wrapper = document.querySelector('.eh-post__wrapper');
   var carousel = document.querySelectorAll('.eh-carousel');
   var pager = document.querySelectorAll('.eh-image_number');
+  var header = document.querySelector('header');
+  var numbers = document.querySelector('.eh-image-num');
   pager[0].classList.add('current');
   carousel[0].classList.add('display');
   wrapper.addEventListener('click', function(){
@@ -114,11 +116,15 @@ function carousel(){
     if(next){
       next.classList.add('display');
       pageNext.classList.add('current');
+      header.classList.add('white');
+      numbers.classList.add('display')
     } else {
       next = carousel[0];
       pageNext = pager[0];
+      header.classList.remove('white');
       next.classList.add('display');
       pageNext.classList.add('current');
+      numbers.classList.remove('display')
     }
     console.log(next);
   });
