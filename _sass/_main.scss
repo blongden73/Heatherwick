@@ -30,7 +30,7 @@ header {
   padding-bottom: 5px;
   position: fixed;
   z-index: 100;
-  transition: all ease-in-out 0.5s;
+  transition: height ease-in-out 0.5s;
   transition-delay: 0.5s;
 
   &:hover {
@@ -42,6 +42,10 @@ header {
     .eh-menu {
       transform: scale(2);
     }
+  }
+
+  &.home {
+    background-color: #fff;
   }
 
   &.open {
@@ -348,7 +352,7 @@ header {
 
     p {
       font-family: 'victor_serif_trialthin';
-      font-size: 18px;
+      font-size: 19px;
       line-height: 1.3;
       max-width: 100%;
 
