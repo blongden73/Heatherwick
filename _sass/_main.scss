@@ -44,7 +44,7 @@ header {
     }
   }
 
-  &.home {
+  &.home, &.about {
     background-color: #fff;
   }
 
@@ -285,6 +285,7 @@ header {
     font-family: monospace;
     margin-top: 10px;
     letter-spacing: -3px;
+    margin-bottom: 12px;
   }
 }
 
