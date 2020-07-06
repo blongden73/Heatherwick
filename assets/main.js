@@ -97,6 +97,10 @@ function menu(){
   });
 }
 
+function nextSlide() {
+
+}
+
 function carousel(){
   var wrapper = document.querySelector('.eh-post__wrapper');
   var carousel = document.querySelectorAll('.eh-carousel');
@@ -128,6 +132,54 @@ function carousel(){
     }
     console.log(next);
   });
+  document.onkeydown = checkKey;
+  function checkKey(e) {
+      e = e || window.event;
+      if (e.keyCode == '37') {
+        console.log('click');
+        var current = document.querySelector('.eh-carousel.display');
+        var next = document.querySelector('.display + .eh-carousel');
+        var pageCurrent = document.querySelector('.eh-image_number.current');
+        var pageNext = document.querySelector('.current + .eh-image_number');
+        current.classList.remove('display');
+        pageCurrent.classList.remove('current');
+        if(next){
+          next.classList.add('display');
+          pageNext.classList.add('current');
+          header.classList.add('white');
+          numbers.classList.add('display')
+        } else {
+          next = carousel[0];
+          pageNext = pager[0];
+          header.classList.remove('white');
+          next.classList.add('display');
+          pageNext.classList.add('current');
+          numbers.classList.remove('display')
+        }
+      }
+      else if (e.keyCode == '39') {
+        console.log('click');
+        var current = document.querySelector('.eh-carousel.display');
+        var next = document.querySelector('.display + .eh-carousel');
+        var pageCurrent = document.querySelector('.eh-image_number.current');
+        var pageNext = document.querySelector('.current + .eh-image_number');
+        current.classList.remove('display');
+        pageCurrent.classList.remove('current');
+        if(next){
+          next.classList.add('display');
+          pageNext.classList.add('current');
+          header.classList.add('white');
+          numbers.classList.add('display')
+        } else {
+          next = carousel[0];
+          pageNext = pager[0];
+          header.classList.remove('white');
+          next.classList.add('display');
+          pageNext.classList.add('current');
+          numbers.classList.remove('display')
+        }
+      }
+  }
 }
 
 function menuButton(){

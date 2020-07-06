@@ -7,13 +7,16 @@ layout: default
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       <div class="eh-post_base" {% if thecycle == 'odd' %} uk-parallax="y: 50,0" {% endif %} {% if thecycle == 'even' %} uk-parallax="y: 200,0" {% endif %}>
         <!-- if index is < 1 -->
-        <a href="{{post.url}}"></a>
+        {% assign image = post.Images %}
+        
+        {% if image.size > 1 %}
+          <a href="{{post.url}}"></a>
+        {% endif %}
         <h2>{{post.Extras}}</h2>
         <div class="eh-image_wrapper">
           <img class="eh-image_cover" src="{{post.MainImage}}">
         </div>
         <div class="eh-image-num">
-          {% assign image = post.Images %}
           {% for image in image %}
             {{ forloop.index }}
           {% endfor %}
