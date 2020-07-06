@@ -3,7 +3,6 @@ title: Radio Stories
 date: 2020-06-10 11:01:00 Z
 permalink: "/Radio-stories"
 Images:
-- Quote: 
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-3-14fdf5.jpg"
   Quote: 
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-4-13f14f.jpg"
