@@ -7,14 +7,11 @@ Images:
   Quote: 
 - Image: "/uploads/Ukraine-10.jpg"
   Quote: 
-- Quote: "Next to the summer kitchen, we have a garage, and a barn which is used as
-    a\ncowshed and pigpen. Right by it all is our vegetable patch, and then there’s
-    the\nallotment. The other, bigger allotment, is a 30 minute walk away.\nMy brightest
-    memory comes from a summer’s day. Hail started and everyone\nappeared in the summer
-    kitchen. The big dog was lying on the floor, five cats\nwere sleeping on the bench.
-    My granny was cooking something for supper. \nI was sitting and listening to the
-    radio. After that the sun came out and the view of\nthe garden from the window
-    was enchanting.”\n\n- Sofia Vozniuk"
+- Quote: "My brightest memory comes from a summer’s day. Hail started and everyone\nappeared
+    in the summer kitchen. The big dog was lying on the floor, five cats\nwere sleeping
+    on the bench. My granny was cooking something for supper. \nI was sitting and
+    listening to the radio. After that the sun came out and the view of\nthe garden
+    from the window was enchanting.”\n\n- Sofia Vozniuk"
 - Image: "/uploads/Ukraine-5.jpg"
   Quote: 
 - Image: "/uploads/Ukraine_18.jpg"
@@ -22,7 +19,7 @@ Images:
 - Image: "/uploads/Ukraine-7.jpg"
   Quote: 
 - Image: "/uploads/UKRAINE-5-copy.jpg"
-MainImage: "/uploads/Ukraine-11.jpg"
+MainImage: "/uploads/ukraine_cover.jpg"
 Extras: Ukraine
 layout: post
 ---
