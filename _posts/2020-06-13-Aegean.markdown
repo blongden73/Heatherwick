@@ -21,7 +21,7 @@ Images:
   Quote: 
 - Quote: hkjhkjhkhj
 Extras: Crete
-MainImage: "/uploads/Crete_CookBook-21-0310b8.jpg"
+MainImage: "/uploads/Crete_CookBook-32.jpg"
 layout: post
 ---
 
