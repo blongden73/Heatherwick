@@ -1,9 +1,9 @@
 ---
-title: Dionese
+title: Marianna
 date: 2020-06-13 11:00:00 Z
-permalink: "/Dionese"
+permalink: "/Marianna"
 Extras: Haiti
-MainImage: "/uploads/Dionese,-Haiti.jpg"
+Main Image: "/uploads/Marianna-London.jpg"
 layout: post
 ---
 
