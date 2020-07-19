@@ -1,6 +1,6 @@
 ---
 title: Laraba
-date: 2020-06-10 10:01:00 Z
+date: 2020-06-07 10:01:00 Z
 permalink: "/Laraba"
 Images:
 - Image: "/uploads/Mubi-5.jpg"
