@@ -1,6 +1,6 @@
 ---
 title: Kat Bazeley
-date: 2020-06-13 11:00:00 Z
+date: 2020-06-13 12:40:00 Z
 permalink: "/Kat-Bazeley"
 Images:
 - Image: "/uploads/KatBazeley-1.jpg"
