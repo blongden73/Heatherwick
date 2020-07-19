@@ -3,7 +3,7 @@ title: Kat Bazeley
 date: 2020-06-13 12:40:00 Z
 permalink: "/Kat-Bazeley"
 Images:
-- Image: "/uploads/KatBazeley-1.jpg"
+- Image: "/uploads/Kat-Bazeley-5.jpg"
   Quote: 
 - Image: "/uploads/Kat-Bazeley-14.jpg"
   Quote: 
@@ -12,7 +12,7 @@ Images:
 - Image: "/uploads/Kat-Bazeley-4.jpg"
   Quote: 
 Extras: Toast Portraits
-MainImage: "/uploads/Kat-Bazeley-5.jpg"
+MainImage: "/uploads/KatBazeley-1.jpg"
 layout: post
 ---
 
