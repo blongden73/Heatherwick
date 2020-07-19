@@ -1,6 +1,6 @@
 ---
 title: Education not walls
-date: 2020-06-13 13:30:00 Z
+date: 2020-06-13 12:59:00 Z
 permalink: "/Education-not-walls"
 Images:
 - Image: "/uploads/Bosnia_STC-5.jpg"
