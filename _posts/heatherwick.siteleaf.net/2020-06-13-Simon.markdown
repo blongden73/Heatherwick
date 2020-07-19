@@ -1,9 +1,9 @@
 ---
-title: Yola
+title: Simon
 date: 2020-06-13 11:00:00 Z
-permalink: "/Yola"
+permalink: "/Simon"
 Extras: Nigeria
-MainImage: "/uploads/Yola,-Nigeria-1c55eb.jpg"
+Main Image: "/uploads/Simon-Nigeria.jpg"
 layout: post
 ---
 
