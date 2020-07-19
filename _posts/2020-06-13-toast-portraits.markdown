@@ -1,6 +1,6 @@
 ---
 title: Rachel Rody
-date: 2020-06-13 15:00:00 Z
+date: 2020-06-13 14:59:00 Z
 permalink: "/Rachel-Rody"
 Images:
 - Image: "/uploads/TOAST-Portraits_RachelRoddy-7.jpg"
