@@ -1,6 +1,6 @@
 ---
 title: Hereford
 date: 2020-06-13 09:00:00 Z
-main Image: "/uploads/Fern-Verrow-Hereford.jpg"
+MainImage: "/uploads/Fern-Verrow-Hereford.jpg"
 ---
 
