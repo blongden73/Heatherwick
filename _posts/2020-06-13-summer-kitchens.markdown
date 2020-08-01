@@ -24,6 +24,10 @@ Extras: Ukraine
 layout: post
 ---
 
+## Recipes and Reminiscences from Every Corner of Ukraine
+## By Olia Hercules  
+## Published by Bloomsbury press  
+
 “On the shelves, there are different teas and cups. Inside the kitchen cabinet are forks, knives and spoons, salt and other supplies.
 Sparrows made their nest near the drain pipe outside the kitchen. 
 Also there are always a lot of spiders inside. The main house is separated from the kitchen by a narrow three-metre pathway, and is only used for sleeping, well, I guess the fridge is there! But it is the summer kitchen that is used for cooking food for family members. In the hall, as I mentioned, small chickens live. 
