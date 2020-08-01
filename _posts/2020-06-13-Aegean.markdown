@@ -25,7 +25,7 @@ MainImage: "/uploads/Crete_CookBook-32.jpg"
 layout: post
 ---
 
-# Recipes from the Mountains to the Sea, Crete.
+## Recipes from the Mountains to the Sea
 ### By Marianna Leivaditaki 
 ### Published by Kyle Books
 
