@@ -24,7 +24,7 @@ Extras: Ukraine
 layout: post
 ---
 
-## Recipes and Reminiscences from Every Corner of Ukraine
+## Recipes and Reminiscences from Every Corner of Ukraine
 ### By Olia Hercules  
 ### Published by Bloomsbury Press  
 
