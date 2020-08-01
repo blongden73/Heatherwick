@@ -15,6 +15,14 @@ Images:
   Quote: 
 - Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-12.jpg"
   Quote: 
+- Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-9.jpg"
+  Quote: 
+- Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-3.jpg"
+  Quote: 
+- Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-7.jpg"
+  Quote: 
+- Image: "/uploads/PlantaeAmazonicae_Lindsay_Kew-4.jpg"
+  Quote: 
 MainImage: "/uploads/PlantaeAmazonicae_Lindsay_Kew-11-1f4a85.jpg"
 Extras: Kew Gardens
 layout: post
