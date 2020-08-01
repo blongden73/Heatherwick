@@ -26,7 +26,7 @@ layout: post
 
 ## Recipes and Reminiscences from Every Corner of Ukraine
 ### By Olia Hercules  
-### Published by Bloomsbury Press  
+### Published by Bloomsbury  
 
 “On the shelves, there are different teas and cups. Inside the kitchen cabinet are forks, knives and spoons, salt and other supplies.
 Sparrows made their nest near the drain pipe outside the kitchen. 
