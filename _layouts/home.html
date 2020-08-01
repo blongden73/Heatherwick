@@ -5,10 +5,10 @@ layout: default
 <div class="eh-posts">
   {% for post in site.posts %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-      <div class="eh-post_base" {% if thecycle == 'odd' %} uk-parallax="y: 50,0" {% endif %} {% if thecycle == 'even' %} uk-parallax="y: 200,0" {% endif %}>
+      <div class="eh-post_base">
         <!-- if index is < 1 -->
         {% assign image = post.Images %}
-        
+
         {% if image.size > 1 %}
           <a href="{{post.url}}"></a>
         {% endif %}
@@ -25,3 +25,5 @@ layout: default
       </div>
   {% endfor %}
 </div>
+
+<!-- {% if thecycle == 'odd' %} uk-parallax="y: 50,0" {% endif %} {% if thecycle == 'even' %} uk-parallax="y: 100,0" {% endif %} -->
