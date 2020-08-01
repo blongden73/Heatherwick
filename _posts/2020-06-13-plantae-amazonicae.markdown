@@ -20,6 +20,8 @@ Extras: Kew Gardens
 layout: post
 ---
 
+## By Lindsay Sekulowicz
+
 “In 2013 I spent a summer researching and drawing
 in the Herbarium at Kew Gardens. It felt like there
 were endless possibilities inside the vast rooms
