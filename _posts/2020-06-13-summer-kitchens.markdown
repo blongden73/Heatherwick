@@ -5,8 +5,11 @@ permalink: "/summer-kitchens"
 Images:
 - Image: "/uploads/UKRAINE-3-copy.jpg"
   Quote: 
+- Image: "/uploads/PostCardsFromUkraine-26.jpg"
 - Image: "/uploads/Ukraine-10.jpg"
   Quote: 
+- Image: "/uploads/UKRAINE-5-copy.jpg"
+- Image: "/uploads/Ukraine-16.jpg"
 - Quote: "My brightest memory comes from a summer’s day. Hail started and everyone\nappeared
     in the summer kitchen. The big dog was lying on the floor, five cats\nwere sleeping
     on the bench. My granny was cooking something for supper. \nI was sitting and
@@ -14,11 +17,15 @@ Images:
     from the window was enchanting.”\n\n- Sofia Vozniuk"
 - Image: "/uploads/Ukraine-5.jpg"
   Quote: 
+- Image: "/uploads/Ukraine-17.jpg"
 - Image: "/uploads/Ukraine_18.jpg"
   Quote: 
+- Image: "/uploads/PostCardsFromUkraine-4.jpg"
 - Image: "/uploads/Ukraine-7.jpg"
   Quote: 
-- Image: "/uploads/UKRAINE-5-copy.jpg"
+- Image: "/uploads/Ukraine-18.jpg"
+- Image: "/uploads/PostCardsFromUkraine-9-fabdf1.jpg"
+- Image: "/uploads/Ukraine-15.jpg"
 MainImage: "/uploads/Transcarpathia-Ukraine-2.jpg"
 Extras: Ukraine
 layout: post
