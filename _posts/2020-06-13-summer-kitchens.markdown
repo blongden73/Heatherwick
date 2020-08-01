@@ -19,7 +19,7 @@ Images:
 - Image: "/uploads/Ukraine-7.jpg"
   Quote: 
 - Image: "/uploads/UKRAINE-5-copy.jpg"
-MainImage: "/uploads/ukraine_cover.jpg"
+MainImage: "/uploads/Transcarpathia-Ukraine-2.jpg"
 Extras: Ukraine
 layout: post
 ---
