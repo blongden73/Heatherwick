@@ -11,7 +11,7 @@ Images:
   Quote: 
 - Image: "/uploads/TOAST-Portraits_WillowWalker-5.jpg"
   Quote: 
-- Image: "/uploads/TOAST-Portraits_WillowWalker-7.jpg"
+- Image: "/uploads/TOAST-Portraits_WillowWalker-9.jpg "
   Quote: 
 - Quote: |-
     “With a large bucket tucked under her arm, she burrows deep into a thicket and
@@ -19,8 +19,8 @@ Images:
 
     - Lindsay Sekulowicz
 - Image: "/uploads/TOAST-Portraits_WillowWalker-3-944e6b.jpg"
-MainImage: "/uploads/TOAST-Portraits_WillowWalker-9.jpg"
-Extras: Sea Buckthorn
+MainImage: "/uploads/TOAST-Portraits_WillowWalker-7.jpg"
+Extras: Scotland
 layout: post
 ---
 
