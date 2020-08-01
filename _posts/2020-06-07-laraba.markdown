@@ -14,7 +14,7 @@ Images:
 - Image: "/uploads/Laraba-6.jpg"
   Quote: 
 MainImage: "/uploads/laraba.jpg"
-Field name: Laraba
+Extras: Nigeria
 layout: post
 ---
 
