@@ -19,8 +19,6 @@ Images:
   Quote: 
 - Image: "/uploads/Radio-Ishingiro_ElenaHeatherwick-14.jpg"
   Quote: 
-- Image: 
-  Quote: 
 Extras: Rwanda
 MainImage: "/uploads/Radio-Ishingiro_ElenaHeatherwick-1-b0d922.jpg"
 layout: post
