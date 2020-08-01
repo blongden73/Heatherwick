@@ -19,7 +19,13 @@ Images:
   Quote: 
 - Image: "/uploads/Crete_CookBook-3-bdfe13.jpg"
   Quote: 
-- Image: 
+- Image: "/uploads/eh_crete_1.jpg"
+  Quote: 
+- Image: "/uploads/eh_crete_2.jpg"
+  Quote: 
+- Image: "/uploads/eh_crete_4.jpg"
+  Quote: 
+- Image: "/uploads/eh_crete_3.jpg"
   Quote: 
 Extras: Crete
 MainImage: "/uploads/Crete_CookBook-32.jpg"
