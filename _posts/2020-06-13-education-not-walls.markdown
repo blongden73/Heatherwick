@@ -24,6 +24,8 @@ MainImage: "/uploads/Bosnia_STC-8-c0a618.jpg"
 layout: post
 ---
 
+## Save the Children
+
 “If we are going to their country and taking money, we need to be useful.
 A few years ago they decided to close the boarder to make it harder for migrants to cross but it wasn't working then and it's not working now. Even in winter with snow and rain, they will reach the boarder. Closing the boarders is not the solution. The solution is giving them education. Education not just for small children but for teenagers and older people too. They will not be useful for Europe, they will just make a lot of problems if they are not educated.
 I just want my story to be heard by English people and European people and
