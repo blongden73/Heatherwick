@@ -226,7 +226,7 @@ header {
   @include mq($from: desktop) {
     &:nth-child(1) {
       flex-basis: 36%;
-      margin-left: 202px;
+      margin-left: 13%;
     }
 
     &:nth-child(2) {
