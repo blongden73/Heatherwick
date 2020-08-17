@@ -9,4 +9,4 @@ Description: "UN\nIRC\nOxfam\nSave The Children\nWaterAid\nThe Guardian\nThe Tel
 layout: about
 ---
 
-Elena Heatherwick is a London based photographer. 
+Elena Heatherwick is a freelance photographer based in London who specialises in portrait and documentary photography. As well as being a regular contributor for The Guardian, her work has been displayed at the National Portrait Gallery and the Shirley Sherwood Gallery. Clients include:
