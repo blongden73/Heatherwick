@@ -7,5 +7,6 @@ Images:
 - Image: "/uploads/MichelOdent_ElenaHeatherwick-1552.jpg"
 - Image: "/uploads/MichelOdent_ElenaHeatherwick-1554.jpg"
 - Image: "/uploads/MichelOdent_ElenaHeatherwick-1569.jpg"
+layout: post
 ---
 
