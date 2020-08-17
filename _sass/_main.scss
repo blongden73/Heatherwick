@@ -178,6 +178,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 120px;
 }
 
 .eh-post_base {
@@ -273,9 +274,9 @@ header {
       margin-right: 10%;
     }
     &:nth-child(11) {
-      flex-basis: 35%;
+      flex-basis: 20%;
       margin-left: 60%;
-      margin-top: -20%;
+      margin-top: -12%;
       margin-right: 10%;
     }
     &:nth-child(13) {
