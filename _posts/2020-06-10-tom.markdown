@@ -3,5 +3,10 @@ title: Thomas Heatherwick
 date: 2020-06-10 08:00:00 Z
 MainImage: "/uploads/TH-4.jpg"
 Extras: London
+Images:
+- Image: "/uploads/TH-7.jpg"
+- Image: "/uploads/TH-3.jpg"
+- Image: "/uploads/TH.jpg"
+layout: post
 ---
 
